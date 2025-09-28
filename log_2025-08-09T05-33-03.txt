@@ -1,0 +1,216 @@
+05:33:06.6197758 [Info, Thread 21]	Microsoft.VisualStudio.CMake.Package.IntelliSense.CMakeLanguageClient: CMake language services initialized
+05:33:19.4597717 [Info, Thread 11]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.ConfigurationService: GetSingleSettings('C:\CMakeChurchApp') took 0ms.
+05:33:19.5997721 [Info, Thread 11]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.ConfigurationService: ConfigSwitched Initial config switch to x64-debug
+05:33:19.8747701 [Warning, Thread 30]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.UI.CachedBuildProjects: SwitchToPurgingState due to error CreationTimeUtc:8/6/2025 8:33:59 AM Workspace open:8/9/2025 12:32:56 PM
+05:33:19.8777692 [Info, Thread 30]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Rehydrating projects for 0 VBP Waiting:x64-debug, HasData:, HasError:
+05:33:19.8827729 [Info, Thread 30]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Starting scan ...
+05:33:20.3737784 [Info, Thread 14]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+05:33:20.3757739 [Info, Thread 14]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing starting: projectfilepath CMakeLists.txt Config Name:x64-debug
+05:33:21.9036975 [Info, Thread 12]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationStarted root: CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+05:33:22.6906977 [Info, Thread 5]	libcmake.CMakeDaemonDriver: CMake version parsed: True, input string: cmake version 3.31.6-msvc6, matched version: 3.31.6.0
+05:33:22.6956972 [Info, Thread 5]	libcmake.CMakeListsParser: Parsing without cache
+05:33:22.7207071 [Info, Thread 5]	libcmake.CMakeDaemonDriver: CacheNotDeletedAutomatically Cache retained at $C:/CMakeChurchApp/out/build/x64-debug
+05:33:22.7306964 [Info, Thread 5]	libcmake.CMakeDaemonDriver: CMake version '3.31.6.0' identified
+05:33:22.8616990 [Info, Thread 12]	libcmake.CMakeDaemonDriver: Starting generator CMake
+05:36:54.7814575 [Info, Thread 46]	libcmake.CMakeDaemonDriver: Generator CMake finished
+05:36:54.7974613 [Error, Thread 14]	Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider: libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' execution failed with error: ''C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1'. ---> libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+   --- End of inner exception stack trace ---
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.FileApiDaemon.<GenerateCacheAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseImplAsync>d__40.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseAsync>d__36.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider.<ParseProjectAsync>d__46.MoveNext()
+05:36:54.8094606 [Info, Thread 5]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationFinished Cache gen & parsing done: root:CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+05:36:54.8534692 [Info, Thread 21]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing done: projectfilepath CMakeLists.txt Config Name:x64-debug, took 214477ms.
+05:36:54.8574594 [Info, Thread 21]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Compute file data values for CMakeLists.txt Config x64-debug, wasAutoGenerateCanceled:False
+05:36:54.8584582 [Error, Thread 21]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: FDV Error for CMakeLists.txt Config x64-debug Canceled False
+05:36:54.9354593 [Info, Thread 47]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeLists.txt
+05:36:54.9354593 [Info, Thread 47]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Finishing scan.
+05:36:55.0734583 [Info, Thread 47]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerTypeCompleted
+05:36:55.0894617 [Info, Thread 30]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.WaitableIndexService: WaitableIndexService changed to Completed from FileScanning
+05:40:13.1570017 [Info, Thread 62]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.WaitableIndexService: WaitableIndexService changed to FileScanning from Completed
+05:40:13.2637361 [Info, Thread 21]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+05:40:13.2757391 [Info, Thread 21]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeChurchApp (2)\CMakeLists.txt
+05:40:13.2777558 [Info, Thread 67]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+05:40:13.2787505 [Info, Thread 67]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing starting: projectfilepath CMakeLists.txt Config Name:x64-debug
+05:40:13.2907499 [Info, Thread 21]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationStarted root: CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+05:40:13.5597329 [Info, Thread 67]	libcmake.CMakeDaemonDriver: CMake version parsed: True, input string: cmake version 3.31.6-msvc6, matched version: 3.31.6.0
+05:40:13.5607361 [Info, Thread 67]	libcmake.CMakeListsParser: Parsing without cache
+05:40:13.5707325 [Info, Thread 67]	libcmake.CMakeDaemonDriver: CacheNotDeletedAutomatically Cache retained at $C:/CMakeChurchApp/out/build/x64-debug
+05:40:13.5717336 [Info, Thread 67]	libcmake.CMakeDaemonDriver: CMake version '3.31.6.0' identified
+05:40:13.6087399 [Info, Thread 67]	libcmake.CMakeDaemonDriver: Starting generator CMake
+05:40:21.6082838 [Info, Thread 21]	libcmake.CMakeDaemonDriver: Generator CMake finished
+05:40:21.6102864 [Error, Thread 21]	Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider: libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' execution failed with error: ''C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1'. ---> libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+   --- End of inner exception stack trace ---
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.FileApiDaemon.<GenerateCacheAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseImplAsync>d__40.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseAsync>d__36.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider.<ParseProjectAsync>d__46.MoveNext()
+05:40:21.6112886 [Info, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationFinished Cache gen & parsing done: root:CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+05:40:21.6142829 [Info, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing done: projectfilepath CMakeLists.txt Config Name:x64-debug, took 8334ms.
+05:40:21.6142829 [Info, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Compute file data values for CMakeLists.txt Config x64-debug, wasAutoGenerateCanceled:False
+05:40:21.6142829 [Info, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Starting scan ...
+05:40:21.6162845 [Error, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: FDV Error for CMakeLists.txt Config x64-debug Canceled False
+05:40:21.6332870 [Info, Thread 21]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeLists.txt
+05:40:21.6332870 [Info, Thread 21]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Finishing scan.
+05:40:29.3821824 [Info, Thread 51]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+05:40:29.3992611 [Info, Thread 14]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeChurchApp (2)\CMakeLists.txt
+05:40:29.4012550 [Info, Thread 14]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+05:40:29.4012550 [Info, Thread 14]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing starting: projectfilepath CMakeLists.txt Config Name:x64-debug
+05:40:29.4042542 [Info, Thread 61]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationStarted root: CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+05:40:29.6262536 [Info, Thread 53]	libcmake.CMakeDaemonDriver: CMake version parsed: True, input string: cmake version 3.31.6-msvc6, matched version: 3.31.6.0
+05:40:29.6262536 [Info, Thread 53]	libcmake.CMakeListsParser: Parsing without cache
+05:40:29.6362708 [Info, Thread 53]	libcmake.CMakeDaemonDriver: CacheNotDeletedAutomatically Cache retained at $C:/CMakeChurchApp/out/build/x64-debug
+05:40:29.6372688 [Info, Thread 53]	libcmake.CMakeDaemonDriver: CMake version '3.31.6.0' identified
+05:40:29.6762552 [Info, Thread 61]	libcmake.CMakeDaemonDriver: Starting generator CMake
+05:40:37.7585634 [Info, Thread 53]	libcmake.CMakeDaemonDriver: Generator CMake finished
+05:40:37.7595647 [Error, Thread 53]	Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider: libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' execution failed with error: ''C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1'. ---> libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+   --- End of inner exception stack trace ---
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.FileApiDaemon.<GenerateCacheAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseImplAsync>d__40.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseAsync>d__36.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider.<ParseProjectAsync>d__46.MoveNext()
+05:40:37.7615658 [Info, Thread 53]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationFinished Cache gen & parsing done: root:CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+05:40:37.7625706 [Info, Thread 53]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing done: projectfilepath CMakeLists.txt Config Name:x64-debug, took 8360ms.
+05:40:37.7625706 [Info, Thread 53]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Compute file data values for CMakeLists.txt Config x64-debug, wasAutoGenerateCanceled:False
+05:40:37.7625706 [Info, Thread 53]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Starting scan ...
+05:40:37.7635680 [Error, Thread 53]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: FDV Error for CMakeLists.txt Config x64-debug Canceled False
+05:40:37.7865658 [Info, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeLists.txt
+05:40:37.7865658 [Info, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Finishing scan.
+05:40:52.5757142 [Info, Thread 61]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+05:40:52.5917552 [Info, Thread 61]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeChurchApp (2)\CMakeLists.txt
+05:40:52.5937544 [Info, Thread 60]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+05:40:52.5947544 [Info, Thread 60]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing starting: projectfilepath CMakeLists.txt Config Name:x64-debug
+05:40:52.5977616 [Info, Thread 61]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationStarted root: CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+05:40:52.8477544 [Info, Thread 51]	libcmake.CMakeDaemonDriver: CMake version parsed: True, input string: cmake version 3.31.6-msvc6, matched version: 3.31.6.0
+05:40:52.8477544 [Info, Thread 51]	libcmake.CMakeListsParser: Parsing without cache
+05:40:52.8577594 [Info, Thread 51]	libcmake.CMakeDaemonDriver: CacheNotDeletedAutomatically Cache retained at $C:/CMakeChurchApp/out/build/x64-debug
+05:40:52.8587576 [Info, Thread 51]	libcmake.CMakeDaemonDriver: CMake version '3.31.6.0' identified
+05:40:52.9007529 [Info, Thread 49]	libcmake.CMakeDaemonDriver: Starting generator CMake
+05:40:55.2812458 [Info, Thread 1]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Starting scan ...
+05:41:00.4912453 [Info, Thread 61]	libcmake.CMakeDaemonDriver: Generator CMake finished
+05:41:00.4922481 [Error, Thread 61]	Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider: libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' execution failed with error: ''C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1'. ---> libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+   --- End of inner exception stack trace ---
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.FileApiDaemon.<GenerateCacheAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseImplAsync>d__40.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseAsync>d__36.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider.<ParseProjectAsync>d__46.MoveNext()
+05:41:00.4932495 [Info, Thread 67]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationFinished Cache gen & parsing done: root:CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+05:41:00.4942525 [Info, Thread 67]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing done: projectfilepath CMakeLists.txt Config Name:x64-debug, took 7900ms.
+05:41:00.4942525 [Info, Thread 67]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Compute file data values for CMakeLists.txt Config x64-debug, wasAutoGenerateCanceled:False
+05:41:00.4952494 [Error, Thread 67]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: FDV Error for CMakeLists.txt Config x64-debug Canceled False
+05:41:00.5182461 [Info, Thread 5]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeLists.txt
+05:41:00.5182461 [Info, Thread 5]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Finishing scan.
+06:57:17.8906976 [Info, Thread 125]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+06:57:17.9038606 [Info, Thread 86]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeChurchApp\CMakeLists.txt
+06:57:17.9068707 [Info, Thread 95]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug'.
+06:57:17.9078967 [Info, Thread 95]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing starting: projectfilepath CMakeLists.txt Config Name:x64-debug
+06:57:17.9281624 [Info, Thread 83]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationStarted root: CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+06:57:18.2317286 [Info, Thread 125]	libcmake.CMakeDaemonDriver: CMake version parsed: True, input string: cmake version 3.31.6-msvc6, matched version: 3.31.6.0
+06:57:18.2317286 [Info, Thread 125]	libcmake.CMakeListsParser: Parsing without cache
+06:57:18.2487265 [Info, Thread 125]	libcmake.CMakeDaemonDriver: CacheNotDeletedAutomatically Cache retained at $C:/CMakeChurchApp/out/build/x64-debug
+06:57:18.2497268 [Info, Thread 125]	libcmake.CMakeDaemonDriver: CMake version '3.31.6.0' identified
+06:57:18.3127257 [Info, Thread 101]	libcmake.CMakeDaemonDriver: Starting generator CMake
+06:57:35.7214475 [Info, Thread 86]	libcmake.CMakeDaemonDriver: Generator CMake finished
+06:57:35.7244561 [Error, Thread 86]	Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider: libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' execution failed with error: ''C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1'. ---> libcmake.CMakeDaemonException: 'C:\Windows\system32\cmd.exe' '/c "%SYSTEMROOT%\System32\chcp.com 65001 >NUL && "c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\CMake\bin\cmake.exe"  -G "Ninja"  -DCMAKE_TOOLCHAIN_FILE:FILEPATH="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\vcpkg/scripts/buildsystems/vcpkg.cmake" -DCMAKE_C_COMPILER:STRING="cl.exe" -DCMAKE_CXX_COMPILER:STRING="cl.exe" -DCMAKE_BUILD_TYPE:STRING="Debug" -DCMAKE_INSTALL_PREFIX:PATH="C:/CMakeChurchApp/out/install/x64-debug"   -DCMAKE_MAKE_PROGRAM="c:\program files\microsoft visual studio\2022\professional\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe" "C:\CMakeChurchApp" 2>&1"' returned with exit code: 1
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+   --- End of inner exception stack trace ---
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeDaemonDriver.<GenerateCacheAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.FileApiDaemon.<GenerateCacheAsync>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseImplAsync>d__40.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at libcmake.CMakeListsParser.<ParseAsync>d__36.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.CMake.Project.ExternalBuildProject.ProjectProvider.<ParseProjectAsync>d__46.MoveNext()
+06:57:35.7274488 [Info, Thread 93]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationFinished Cache gen & parsing done: root:CMAKELISTS.TXTx64-debug CMakeLists.txt x64-debug
+06:57:35.7294495 [Info, Thread 93]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing done: projectfilepath CMakeLists.txt Config Name:x64-debug, took 17820ms.
+06:57:35.7294495 [Info, Thread 93]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Compute file data values for CMakeLists.txt Config x64-debug, wasAutoGenerateCanceled:False
+06:57:35.7294495 [Info, Thread 93]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Starting scan ...
+06:57:35.7314459 [Error, Thread 93]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: FDV Error for CMakeLists.txt Config x64-debug Canceled False
+06:57:35.7704460 [Info, Thread 93]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CMakeLists.txt
+06:57:35.7704460 [Info, Thread 93]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Finishing scan.

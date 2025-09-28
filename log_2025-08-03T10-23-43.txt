@@ -1,0 +1,3 @@
+10:24:02.0878918 [Info, Thread 33]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.ConfigurationService: GetSingleSettings('C:\CMakeChurchApp\CMakeChurchApp') took 1ms.
+10:24:02.0908906 [Info, Thread 33]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.ConfigurationService: GetSingleSettings('C:\CMakeChurchApp\out') took 0ms.
+10:24:07.0313444 [Info, Thread 30]	Microsoft.VisualStudio.CMake.Package.IntelliSense.CMakeLanguageClient: CMake language services initialized

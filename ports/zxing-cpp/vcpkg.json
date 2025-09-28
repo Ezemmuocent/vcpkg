@@ -1,0 +1,7 @@
+{
+  "name": "zxing-cpp",
+  "version-string": "2.2.1",
+  "description": "C++ port of ZXing library for generating and scanning barcodes/QR codes.",
+  "homepage": "https://github.com/zxing-cpp/zxing-cpp",
+  "license": "Apache-2.0"
+}

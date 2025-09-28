@@ -1,0 +1,6 @@
+{
+  "name": "qrcodegen",
+  "version": "1.8.0",
+  "description": "High-quality QR Code generator library in C++ and Java by Project Nayuki",
+  "homepage": "https://github.com/nayuki/QR-Code-generator"
+}
