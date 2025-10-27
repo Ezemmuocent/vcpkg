@@ -1,0 +1,16 @@
+10:19:15.2080933 [Info, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.ConfigurationService: GetSingleSettings('D:\CMakeChurchApp') took 0ms.
+10:19:15.3929928 [Info, Thread 65]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.ConfigurationService: GetSingleSettings('D:\CMakeChurchApp\src') took 0ms.
+10:19:16.4701505 [Info, Thread 31]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.ConfigurationService: ConfigSwitched Initial config switch to x64-debug-x64-debug
+10:19:17.9150323 [Warning, Thread 25]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.UI.CachedBuildProjects: SwitchToPurgingState due to error CreationTimeUtc:10/13/2025 3:24:06 PM Workspace open:10/13/2025 5:17:09 PM
+10:19:17.9659958 [Info, Thread 25]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Rehydrating projects for 0 VBP Waiting:x64-debug-x64-debug, HasData:, HasError:
+10:19:18.0760310 [Info, Thread 25]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Starting scan ...
+10:19:18.8675584 [Info, Thread 6]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CancelOldTasksAsync: Canceling old tasks for rootFile='CMakeLists.txt' and config='x64-debug-x64-debug'.
+10:19:18.8781742 [Info, Thread 6]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: Scanner Parsing starting: projectfilepath CMakeLists.txt Config Name:x64-debug-x64-debug
+10:19:19.1713282 [Info, Thread 52]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for vcpkg-configuration.json
+10:19:23.1116109 [Info, Thread 11]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.ParseCache: CacheGenerationStarted root: CMAKELISTS.TXTx64-debug-x64-debug CMakeLists.txt x64-debug-x64-debug
+10:19:32.4382692 [Info, Thread 25]	Microsoft.VisualStudio.Workspace.ExternalBuildFramework.Impl.Services.BuildProjectScannerService: OnFileScannerCompleted for CppProperties.json
+10:19:33.9180163 [Info, Thread 20]	libcmake.CMakeDaemonDriver: CMake version parsed: True, input string: cmake version 3.31.6-msvc6, matched version: 3.31.6.0
+10:19:33.9220416 [Info, Thread 20]	libcmake.CMakeListsParser: Parsing without cache
+10:19:33.9629347 [Info, Thread 20]	libcmake.CMakeDaemonDriver: CacheNotDeletedAutomatically Cache retained at $D:/CMakeChurchApp/out/build/x64-debug
+10:19:34.0114837 [Info, Thread 20]	libcmake.CMakeDaemonDriver: CMake version '3.31.6.0' identified
+10:19:34.1333211 [Info, Thread 20]	libcmake.CMakeDaemonDriver: Starting generator CMake
